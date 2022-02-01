@@ -40,7 +40,7 @@ while game != 'n':
 
     while solved != unsolved:
 
-      x=[str(i) for i in]
+      x=[str(i) for i in range(1,10)]
       a = input("Enter row number :")
       while a not in x:
         a = input("Enter a valid row number(1 to 9) :")          
